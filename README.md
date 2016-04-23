@@ -346,5 +346,6 @@ Let's assume our appName is `meteor`
 * Then remove upstrat config file: `rm /etc/init/stud.conf`
 * Stop mongodb if you are using: `stop mongod`
 * Remove MongoDB with: `apt-get remove mongodb`
+* If you're using SSL, [update your ssl configuration](https://github.com/arunoda/meteor-up/tree/mupx#ssl-support) to include the private key
 
 Then do `mupx setup` and then `mupx deploy`.
